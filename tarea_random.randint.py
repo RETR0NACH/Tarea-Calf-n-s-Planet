@@ -6,7 +6,7 @@ Integrantes: Ignacio Chacón - David Nahuelcar
 import random
 
 # Generación de un número aleatorio que representa la cantidad de hojitas en la ramita
-ramita = random.randint(1, 20)
+ramita = random.randint(6, 20)
 
 # Mensaje de bienvenida al juego
 print(
