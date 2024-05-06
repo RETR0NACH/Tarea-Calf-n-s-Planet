@@ -9,14 +9,10 @@ import random
 ramita = random.randint(6, 20)
 
 # Mensaje de bienvenida al juego
-print(
-    f"\n---- ¡Bienvenido al juego de Me quieres mucho, poquito, nada de Calfún's Planet! ----"
-)
+print(f"\n---- ¡Bienvenido al juego de Me quieres mucho, poquito, nada de Calfún's Planet! ----")
 
 # Breve explicación del juego para iniciar el juego.
-print(
-    "\nEn este juego, deshojarás una ramita y dirás 'Me quiere mucho', 'Me quiere poquito', o 'No me quiere'."
-)
+print("\nEn este juego, deshojarás una ramita y dirás 'Me quiere mucho', 'Me quiere poquito', o 'No me quiere'.")
 print("La cantidad de hojitas que deshojarás en cada turno será aleatoria.")
 print("¡Comencemos!\n")
 print("Iniciando juego.....\n")
@@ -54,3 +50,5 @@ elif resultado == "poquito":
 else:
     # Se imprime un mensaje especial si el resultado es "nada"
     print("\nMe Cuernean 3:(")
+
+print("Fin del juego..")
